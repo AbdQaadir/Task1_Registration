@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Titillium+Web:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container py-5">
+        <div class="row main-row d-flex justify-content-center">
+          <div class="col-lg-4 col-md-4 col-sm-0">
+            <div class="overlay">
+              <div class="row d-flex text-center justify-content-center my-5">
+                <div class="col-10 py-5">
+                  <h1
+                    class="font-weight-bold my-4"
+                    style="color: rgb(241, 241, 241);"
+                  >
+                    Quad Tech Company
+                  </h1>
+                  <p style="margin-top: 300px; color: rgb(244, 253, 253);">
+                    Registration has never gotten so easy like this.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <img class="side-img" src="./assets/2853458.jpg" alt="" />
+          </div>
+          <div class="col-lg-8 col-md-8 col-sm-10 reg-col">
+            <h1 class="d-block">Registration</h1>
+            <form action="">
+              <div class="row">
+                <div class="col-10">
+                  <label for="password1">Your Full Name</label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Surname, Other names"
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-5">
+                  <label for="email">Email Address</label>
+                  <input
+                    type="text"
+                    name="email"
+                    id="email"
+                    placeholder="test@gmail.com"
+                  />
+                </div>
+                <div class="col-5">
+                  <label for="number">Phone Number</label>
+                  <input
+                    type="text"
+                    name="number"
+                    id="number"
+                    placeholder="+234 (0) 9012345"
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-5">
+                  <label for="password1">Enter password</label>
+                  <input
+                    type="password"
+                    name="password1"
+                    id="password1"
+                    placeholder="* * * * * * * *"
+                  />
+                </div>
+                <div class="col-5">
+                  <label for="password2">Confirm password</label>
+                  <input
+                    type="password"
+                    name="password2"
+                    id="password2"
+                    placeholder="* * * * * * * *"
+                  />
+                </div>
+              </div>
+              <div class="row d-flex justify-content-end px-5 mx-5">
+                <input
+                  type="submit"
+                  class="btn mx-3"
+                  name="submit"
+                  id="submit"
+                  value="Register"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+  </body>
+</html>
