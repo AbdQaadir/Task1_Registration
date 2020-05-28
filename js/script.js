@@ -13,8 +13,12 @@ function validateForm(e) {
     alert("Name must be filled out");
     return false;
   }
-  if (email === "") {
+  if (!email) {
     alert("Email cannot be blank");
+    return false;
+  }
+  if (pwd1.length < 8 || pwd2.length < 8) {
+    alert("Password length cannot be less than 8");
     return false;
   }
 }
