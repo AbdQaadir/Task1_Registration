@@ -1,0 +1,166 @@
+@media screen and (max-width: 320px) {
+  .d-sm-none {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+  .d-sm-none {
+    display: none;
+  }
+
+  /* Registration Column */
+  .main-row {
+    margin: 0 10px;
+  }
+  h1 {
+    font-size: 1.4rem;
+  }
+  .reg-col {
+    padding: 20px 10px 20px 30px;
+  }
+  form {
+    margin: 20px auto;
+  }
+  input {
+    font-size: 1rem;
+    border-radius: 20px;
+    padding: 9px 9px;
+    width: 90% !important;
+    margin: 10px auto;
+  }
+  input::placeholder {
+    font-size: 0.7rem;
+    opacity: 0.4;
+    font-weight: 300;
+    letter-spacing: 2px;
+    padding: 10px;
+  }
+  .btn {
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    background: cadetblue;
+    border-radius: 20px;
+    width: 100px !important;
+  }
+
+  label {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+  }
+  .error-msg {
+    top: 20px;
+    font-size: 0.45rem;
+    padding: 3px;
+    border-radius: 5px;
+  }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+  .d-sm-none {
+    display: none;
+  }
+  /* Registration Column */
+  .main-row {
+    margin: 0 10px;
+  }
+  h1 {
+    font-size: 1.4rem;
+  }
+  .reg-col {
+    padding: 20px 10px 20px 30px;
+  }
+  form {
+    margin: 20px auto;
+  }
+  input {
+    font-size: 1rem;
+    border-radius: 20px;
+    padding: 9px 9px;
+    width: 90% !important;
+    margin: 10px auto;
+  }
+  input::placeholder {
+    font-size: 0.7rem;
+    opacity: 0.4;
+    font-weight: 300;
+    letter-spacing: 2px;
+    padding: 10px;
+  }
+  .btn {
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    background: cadetblue;
+    border-radius: 20px;
+    width: 100px !important;
+  }
+
+  label {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+  }
+  .error-msg {
+    top: 20px;
+    font-size: 0.45rem;
+    padding: 3px;
+    border-radius: 5px;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .d-sm-none {
+    display: none;
+  }
+  /* Registration Column */
+  .main-row {
+    margin: 0 10px;
+  }
+  h1 {
+    font-size: 1.6rem;
+  }
+  .reg-col {
+    padding: 20px 10px 20px 30px;
+  }
+  form {
+    margin: 20px auto;
+  }
+  input {
+    font-size: 1.1rem;
+    border-radius: 20px;
+    padding: 9px 9px;
+    width: 90% !important;
+    margin-bottom: 30px;
+  }
+  input::placeholder {
+    font-size: 0.9rem;
+    opacity: 0.4;
+    font-weight: 300;
+    letter-spacing: 2px;
+    padding: 10px;
+  }
+  .btn {
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    width: 100px !important;
+  }
+
+  label {
+    font-size: 0.99rem;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+  }
+  .error-msg {
+    top: 20px;
+    font-size: 0.45rem;
+    padding: 3px;
+    border-radius: 5px;
+  }
+}
+
+@media only screen and (min-width: 999px) {
+  .d-sm-none {
+    display: block !important;
+  }
+}

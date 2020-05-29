@@ -14,12 +14,13 @@
     />
     <link rel="stylesheet" href="./css/bootstrap.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsiveness.css" />
   </head>
   <body>
     <main>
       <div class="container py-5">
         <div class="row main-row d-flex justify-content-center">
-          <div class="col-lg-4 col-md-4 col-sm-0">
+          <div class="col-lg-4 col-md-4 d-sm-none">
             <div class="overlay">
               <div class="row d-flex text-center justify-content-center my-5">
                 <div class="col-10 py-5">
@@ -38,7 +39,7 @@
             <img class="side-img" src="./assets/2853458.jpg" alt="" />
           </div>
           <div class="col-lg-8 col-md-8 col-sm-10 reg-col">
-            <h1 class="d-block">Registration</h1>
+            <h1 class="d-block mt-4">Registration</h1>
             <form
               name="reg-form"
               action=""
@@ -46,8 +47,9 @@
               method="POST"
             >
               <div class="row">
-                <div class="col-10">
-                  <label for="password1">Your Full Name</label>
+                <div class="col-12 col-lg-10 col-md-12">
+                  <label for="name">Your Full Name</label>
+                  <span class="error-msg" id="name-err"></span>
                   <input
                     type="text"
                     name="name"
@@ -57,8 +59,9 @@
                 </div>
               </div>
               <div class="row">
-                <div class="col-5">
+                <div class="col-12 col-lg-5 col-md-6">
                   <label for="email">Email Address</label>
+                  <span class="error-msg" id="email-err"></span>
                   <input
                     type="text"
                     name="email"
@@ -66,8 +69,9 @@
                     placeholder="test@gmail.com"
                   />
                 </div>
-                <div class="col-5">
+                <div class="col-12 col-md-6 col-lg-5">
                   <label for="number">Phone Number</label>
+                  <span class="error-msg" id="number-err"></span>
                   <input
                     type="text"
                     name="number"
@@ -77,8 +81,9 @@
                 </div>
               </div>
               <div class="row">
-                <div class="col-5">
+                <div class="col-12 col-md-6 col-lg-5">
                   <label for="password1">Enter password</label>
+                  <span class="error-msg" id="password-err"></span>
                   <input
                     type="password"
                     name="password1"
@@ -86,7 +91,7 @@
                     placeholder="* * * * * * * *"
                   />
                 </div>
-                <div class="col-5">
+                <div class="col-12 col-md-6 col-lg-5">
                   <label for="password2">Confirm password</label>
                   <input
                     type="password"
@@ -96,7 +101,7 @@
                   />
                 </div>
               </div>
-              <div class="row d-flex justify-content-end px-5 mx-5">
+              <div class="row d-flex justify-content-center px-5 mx-5">
                 <input
                   type="submit"
                   class="btn mx-3"
